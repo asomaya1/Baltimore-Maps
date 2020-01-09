@@ -1,5 +1,4 @@
-I am using 1 late day on this assignment
-Part C - README
+This program uses Dijkstra's Algorithm to find the shortest path - along roads - between two locations in Baltimore.
 
 JHU to Druid Lake:
 
@@ -148,15 +147,3 @@ Total Distance: 16570.4909
 40867:N_CHARLES_ST 318.9
 40816: 137.149
 45662: 121.596
-
-Time and Memory Stats (3 trials):
-300 ms 29240 kb
-310 ms 29271 kb
-316 ms 29287 kb
-
-
-We see that the average memory space used by running StreetSearcher remains relatively constant whether the path
-between the two locations is long or short. However, in terms of runtime, we see that StreetSearcher had a longer
-average runtime on the longer paths than it did on the shorter paths. This makes sense, simply due to the fact
-that in the longer paths Dijkstra's algorithm will (generally) have more edges to evaluate, so finding the optimal
-path will take more time. This is why the runtime changes when searching the same graph.
